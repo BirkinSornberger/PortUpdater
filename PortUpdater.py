@@ -1,7 +1,7 @@
 import os
  
 #Replace this line with YOUR path to ProtonVPN's client logs
-logFile = open("C:/Users/Seedbox/AppData/Local/Proton/Proton VPN/Logs/client-logs.txt", "r")
+logFile = open("C:/Users/YourUser/AppData/Local/Proton/Proton VPN/Logs/client-logs.txt", "r")
 lines = logFile.readlines()
  
 portLines = [line for line in lines if "Port pair" in line]
